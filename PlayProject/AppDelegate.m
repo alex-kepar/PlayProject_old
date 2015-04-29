@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PPTabBarControllerViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *tab1NibName = NSStringFromClass([PPTabBarControllerViewController class]);
+    PPTabBarControllerViewController *tabCntrl = [[PPTabBarControllerViewController alloc] initWithNibName:@"PPTabBarControllerViewController.xib" bundle:nil];
+    //PPTabBarControllerViewController *tabCntrl = [[PPTabBarControllerViewController alloc] initWithNibName:nil bundle:nil];
+    //[self.window;
+    [self.window addSubview:tabCntrl.view];
+    
     return YES;
 }
 

@@ -14,6 +14,15 @@
 		2268EC161AEA4D2C00D99321 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2268EC151AEA4D2C00D99321 /* Images.xcassets */; };
 		2268EC191AEA4D2C00D99321 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2268EC171AEA4D2C00D99321 /* LaunchScreen.xib */; };
 		2268EC251AEA4D2C00D99321 /* PlayProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268EC241AEA4D2C00D99321 /* PlayProjectTests.m */; };
+		22AA7C1E1AEE6AE700799E46 /* PPTabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA7C1C1AEE6AE700799E46 /* PPTabBarControllerViewController.m */; };
+		22AA7C1F1AEE6AE700799E46 /* PPTabBarControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AA7C1D1AEE6AE700799E46 /* PPTabBarControllerViewController.xib */; };
+		22AA7C211AEE747300799E46 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AA7C201AEE747300799E46 /* Application.xib */; };
+		22AA7C231AEE8A7F00799E46 /* ViewTab1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AA7C221AEE8A7F00799E46 /* ViewTab1.xib */; };
+		22AA7C251AEE8B4300799E46 /* ViewTab2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AA7C241AEE8B4300799E46 /* ViewTab2.xib */; };
+		22AA7C291AEE8B8300799E46 /* Tab1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA7C271AEE8B8300799E46 /* Tab1ViewController.m */; };
+		22AA7C2A1AEE8B8300799E46 /* Tab1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AA7C281AEE8B8300799E46 /* Tab1ViewController.xib */; };
+		22AA7C2E1AEE8B9E00799E46 /* Tab2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA7C2C1AEE8B9E00799E46 /* Tab2ViewController.m */; };
+		22AA7C2F1AEE8B9E00799E46 /* Tab2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AA7C2D1AEE8B9E00799E46 /* Tab2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,18 @@
 		2268EC1E1AEA4D2C00D99321 /* PlayProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2268EC231AEA4D2C00D99321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2268EC241AEA4D2C00D99321 /* PlayProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayProjectTests.m; sourceTree = "<group>"; };
+		22AA7C1B1AEE6AE700799E46 /* PPTabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTabBarControllerViewController.h; sourceTree = "<group>"; };
+		22AA7C1C1AEE6AE700799E46 /* PPTabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTabBarControllerViewController.m; sourceTree = "<group>"; };
+		22AA7C1D1AEE6AE700799E46 /* PPTabBarControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPTabBarControllerViewController.xib; sourceTree = "<group>"; };
+		22AA7C201AEE747300799E46 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		22AA7C221AEE8A7F00799E46 /* ViewTab1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewTab1.xib; sourceTree = "<group>"; };
+		22AA7C241AEE8B4300799E46 /* ViewTab2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewTab2.xib; sourceTree = "<group>"; };
+		22AA7C261AEE8B8300799E46 /* Tab1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab1ViewController.h; sourceTree = "<group>"; };
+		22AA7C271AEE8B8300799E46 /* Tab1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab1ViewController.m; sourceTree = "<group>"; };
+		22AA7C281AEE8B8300799E46 /* Tab1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tab1ViewController.xib; sourceTree = "<group>"; };
+		22AA7C2B1AEE8B9E00799E46 /* Tab2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab2ViewController.h; sourceTree = "<group>"; };
+		22AA7C2C1AEE8B9E00799E46 /* Tab2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab2ViewController.m; sourceTree = "<group>"; };
+		22AA7C2D1AEE8B9E00799E46 /* Tab2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tab2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,9 @@
 		2268EBFC1AEA4D2C00D99321 = {
 			isa = PBXGroup;
 			children = (
+				22AA7C2B1AEE8B9E00799E46 /* Tab2ViewController.h */,
+				22AA7C2C1AEE8B9E00799E46 /* Tab2ViewController.m */,
+				22AA7C2D1AEE8B9E00799E46 /* Tab2ViewController.xib */,
 				2268EC071AEA4D2C00D99321 /* PlayProject */,
 				2268EC211AEA4D2C00D99321 /* PlayProjectTests */,
 				2268EC061AEA4D2C00D99321 /* Products */,
@@ -89,6 +113,15 @@
 				2268EC151AEA4D2C00D99321 /* Images.xcassets */,
 				2268EC171AEA4D2C00D99321 /* LaunchScreen.xib */,
 				2268EC081AEA4D2C00D99321 /* Supporting Files */,
+				22AA7C1B1AEE6AE700799E46 /* PPTabBarControllerViewController.h */,
+				22AA7C1C1AEE6AE700799E46 /* PPTabBarControllerViewController.m */,
+				22AA7C1D1AEE6AE700799E46 /* PPTabBarControllerViewController.xib */,
+				22AA7C201AEE747300799E46 /* Application.xib */,
+				22AA7C221AEE8A7F00799E46 /* ViewTab1.xib */,
+				22AA7C261AEE8B8300799E46 /* Tab1ViewController.h */,
+				22AA7C271AEE8B8300799E46 /* Tab1ViewController.m */,
+				22AA7C281AEE8B8300799E46 /* Tab1ViewController.xib */,
+				22AA7C241AEE8B4300799E46 /* ViewTab2.xib */,
 			);
 			path = PlayProject;
 			sourceTree = "<group>";
@@ -199,9 +232,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22AA7C231AEE8A7F00799E46 /* ViewTab1.xib in Resources */,
 				2268EC141AEA4D2C00D99321 /* Main.storyboard in Resources */,
+				22AA7C211AEE747300799E46 /* Application.xib in Resources */,
+				22AA7C2F1AEE8B9E00799E46 /* Tab2ViewController.xib in Resources */,
+				22AA7C251AEE8B4300799E46 /* ViewTab2.xib in Resources */,
 				2268EC191AEA4D2C00D99321 /* LaunchScreen.xib in Resources */,
 				2268EC161AEA4D2C00D99321 /* Images.xcassets in Resources */,
+				22AA7C2A1AEE8B8300799E46 /* Tab1ViewController.xib in Resources */,
+				22AA7C1F1AEE6AE700799E46 /* PPTabBarControllerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22AA7C291AEE8B8300799E46 /* Tab1ViewController.m in Sources */,
+				22AA7C1E1AEE6AE700799E46 /* PPTabBarControllerViewController.m in Sources */,
 				2268EC111AEA4D2C00D99321 /* ViewController.m in Sources */,
 				2268EC0E1AEA4D2C00D99321 /* AppDelegate.m in Sources */,
 				2268EC0B1AEA4D2C00D99321 /* main.m in Sources */,
+				22AA7C2E1AEE8B9E00799E46 /* Tab2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +460,7 @@
 				2268EC2A1AEA4D2C00D99321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2268EC2B1AEA4D2C00D99321 /* Build configuration list for PBXNativeTarget "PlayProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +469,7 @@
 				2268EC2D1AEA4D2C00D99321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
