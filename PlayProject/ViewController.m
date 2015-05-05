@@ -10,25 +10,37 @@
 
 @interface ViewController ()
 
+@property UISearchBar *sb;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    //ljkhkjhkjh
-    /*
-     fddfdf
-     dfdfsdfdsdsfds\
-     dsfsdfsdfs
-     */
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(orientationChanged:)
+                                                 name:UIDeviceOrientationDidChangeNotification
+                                               object:nil];
     
+    _sb = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 70, 320, 44)];
+    [self.view addSubview:_sb];
+    [_sb becomeFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void)orientationChanged:(NSNotification *)notification
+{
+    [_sb removeFromSuperview];
+    NSLog(@"*******************");
+    _sb = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 70, 320, 44)];
+    [self.view addSubview:_sb];
+    [_sb becomeFirstResponder];
 }
 
 @end
